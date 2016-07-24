@@ -17,7 +17,7 @@ Make the binary tree like this
 */
 
 public class Solution{
-    TreeLinkNode Populating(TreeLinkNode root){
+    public TreeLinkNode Populating(TreeLinkNode root){
         while(root!=null){
             TreeLinkNode next = null;
             TreeNodeLink prev = null; 
